@@ -1,18 +1,51 @@
-.container{
+
+.form {
     display: flex;
-    justify-content: center;
-    align-items: center;
     flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+
+  }
+  
+  .form label,
+  .form input[type="text"],
+  .form input[type="email"],
+  .form input[type="password"] {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form label {
+    display: flex;
+    width: 120px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
 }
-input{
-    width: 300px;
-    height: 30px;
-    
-}
-button{
+  
+  .form input[type="text"],
+  .form input[type="email"],
+  .form input[type="password"] {
+    width: 60%;
+    margin-right: 10px;
+    box-sizing: border-box;
+    padding: 12px 20px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 60%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
-    width: 300px;
-    height: 35px;
-    background-color: aqua;
-    border: 0;
-}
+    font-weight: bold;
+    font-size: 1.2rem;
+    
+  }
+  

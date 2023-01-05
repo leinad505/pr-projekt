@@ -5,11 +5,11 @@ import Footer from "./components/Footer";
 
 function Home() {
   return (
-    <>
+    <div>
     <NavBar /> 
     <Movies />
     <Footer />  
-    </>
+    </div>
   )
 }
 

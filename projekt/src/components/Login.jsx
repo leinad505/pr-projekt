@@ -9,9 +9,11 @@ function Login() {
     <div className='container'>
         <NavBar />
         <form className='form'>
-            E-mail: <input type="email"/>
-            Password: <input type="password"/>
-            <button>Log in</button>
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email"/>
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password"/>
+          <button>Login</button>
         </form>
     </div>
   )

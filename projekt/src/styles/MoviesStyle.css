@@ -1,7 +1,7 @@
 body{
     background-color: #15616d;
 }
-.container{
+.moviesContainer{
     display: flex;
     height: 100%;
     overflow:hidden;

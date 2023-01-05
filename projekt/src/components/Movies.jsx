@@ -5,7 +5,7 @@ import { Fragment } from 'react'
 function Movies() {
   return (
     <Fragment>
-        <div className='container'>
+        <div className='moviesContainer'>
             <div className='slot'></div>
             <div className='slot'></div>
             <div className='slot'></div>
@@ -13,7 +13,7 @@ function Movies() {
             <div className='slot'></div>
             <div className='slot'></div>
         </div>
-            <div className='container'>
+            <div className='moviesContainer'>
                 <div className='slot'></div>
                 <div className='slot'></div>
                 <div className='slot'></div>

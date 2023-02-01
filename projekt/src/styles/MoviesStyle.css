@@ -1,18 +1,32 @@
 body{
     background-color: #15616d;
 }
-.moviesContainer{
+.content{
     display: flex;
-    height: 100%;
-    overflow:hidden;
-    justify-content: flex-start;
+    width: auto;
 
 }
-.slot{
-    background-color: #8ecae6;
-    width: 200px;
-    height: 350px;
-    margin-right: 50px;
-    margin-top: 50px;
-    margin-left: 50px;
+.part_content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content__img > img{
+    
+    height: 200px;
+    margin: 10px;
+}
+.movies-link{
+    text-decoration: none;
+}
+.movies-link:hover{
+    color: whitesmoke;
+    text-decoration: underline;
+}
+.movies-link .content__description{
+    color: whitesmoke;
+    margin-left: 10px;
+}
+.movie-title{
+    margin: 0;
 }

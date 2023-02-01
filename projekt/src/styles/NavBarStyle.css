@@ -52,3 +52,17 @@ nav span:hover{
     outline: none;
     
 }
+p{
+    color:white;
+    font-weight: 700;
+}
+.logout-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 5px 5px;
+    margin: 20px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 700;   
+}

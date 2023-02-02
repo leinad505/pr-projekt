@@ -6,15 +6,10 @@ import { Link } from 'react-router-dom'
 function Movies({movie}) {
     return (
         <div className="content">
-          <Link to={`/details/${movie.id}`} className="movies-link">
+          <Link to={`/details/${movie.id}`}>
         <div className="part_content">
-          <div className="content__img">
-            <img
-              src={movie.image} alt={movie.title} />
-          </div>
-          <div className="content__description">
-            <h1 className='movie-title'>{movie.title}</h1> 
-          </div>
+          <img className='image' src={movie.image} alt={movie.title} />
+          <p className='title'>{movie.title}</p>
         </div>
         </Link>
       </div>

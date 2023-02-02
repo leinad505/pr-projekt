@@ -2,31 +2,26 @@ body{
     background-color: #15616d;
 }
 .content{
-    display: flex;
-    width: auto;
-
+    width: 90%;
+    height: 30%;
+    margin: auto;
 }
-.part_content{
+.content .part_content{
+    margin: 15px;
     display: flex;
+    justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    float: left;
+    flex-direction: column;
 }
-.content__img > img{
-    
-    height: 200px;
-    margin: 10px;
+
+.content .image {
+    padding: 5px;
+    height: 300px;
 }
-.movies-link{
-    text-decoration: none;
-}
-.movies-link:hover{
-    color: whitesmoke;
-    text-decoration: underline;
-}
-.movies-link .content__description{
-    color: whitesmoke;
-    margin-left: 10px;
-}
-.movie-title{
-    margin: 0;
+
+.content .title {
+    color: white;
+    text-align: center;
+    font-weight: 800;
 }

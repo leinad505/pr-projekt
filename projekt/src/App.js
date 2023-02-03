@@ -17,7 +17,7 @@ function App() {
             {isExpired(localStorage.getItem("token")) ? <Route exact path="/login" element={<Login/>}></Route> : null}
             {isExpired(localStorage.getItem("token")) ? <Route exact path="/register" element={<Register/>}></Route> : null}
             <Route exact path="/details/:id" element={<Details/>}></Route>
-            <Route exact path="/add" element={<Add/>}/>
+            <Route exact path="/add" element={isExpired(localStorage.getItem("token")) ? <App replace to ="/"/> : <Add/>}></Route>
           </Routes>
         </Router>
       </div>
